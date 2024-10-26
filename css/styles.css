@@ -74,7 +74,7 @@ p {
     flex-wrap: wrap; 
 }
 
-/* Botones sacados y adaptados de: https://www.eniun.com/botones-css-estilos/*/
+
 .btn {
     border: none;
     color: black;
@@ -86,37 +86,14 @@ p {
     
 }
 
-
-/* Botón Teaching */
-.teaching {
+.boton {
     background-color: white;
-    border: 2px solid #007bff;
+    border: 2px solid #e05b0e8f;
 }
-.teaching:hover {
-    background: #0b7dda;
+.boton:hover {
+    background: #e05b0e8f;
     color: white;
 }
-
-/* Botón Software */
-.software {
-    background-color: white;
-    border: 2px solid #e05b0e;
-}
-.software:hover {
-    background: #e05b0e;
-    color: white;
-}
-
-/* Botón Research */
-.research {
-    background-color: white;
-    border: 2px solid #04AA6D;
-}
-.research:hover {
-    background-color: #46a049;
-    color: white;
-}
-
 
 @media (max-width: 600px) {
     .profile-pic {
