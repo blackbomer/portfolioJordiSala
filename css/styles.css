@@ -1,0 +1,133 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    text-align: center;
+}
+
+.container {
+    width: 90%;
+    margin: 0 auto;
+    max-width: 800px;
+    margin-top: 50px;
+}
+
+.profile p {
+    text-align: justify;
+}
+
+.profile-pic {
+    border-radius: 50%; 
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border: 5px solid #3c3e41; 
+    transition: transform 0.3s ease, border-color 0.3s ease; 
+}
+
+
+.profile-pic:hover {
+    transform: scale(1.1); 
+    border: 10px solid #007bff; 
+    border-color: ; 
+}
+
+.bold {
+    
+    font-weight: 800; 
+    
+}
+
+h1 {
+    font-size: 2em;
+    margin: 5px 0;
+    color: #000000;
+}
+
+h2 {
+    font-size: 1.5em;
+    color: #da6505;
+}
+
+p {
+    font-size: 1.1em;
+    color: #666;
+}
+
+.social-media img {
+    width: auto; 
+    height: auto;
+    margin: 10px;
+    transition: transform 0.3s ease; 
+}
+
+
+.social-media img:hover {
+    transform: scale(1.2); 
+}
+
+
+/* Botones sacados y adaptados de: https://www.eniun.com/botones-css-estilos/*/
+.btn {
+    border: none;
+    color: black;
+    padding: 8px 28px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 1em;
+    margin:20px;
+    
+}
+
+
+/* Botón Teaching */
+.teaching {
+    background-color: white;
+    border: 2px solid #007bff;
+}
+.teaching:hover {
+    background: #0b7dda;
+    color: white;
+}
+
+/* Botón Software */
+.software {
+    background-color: white;
+    border: 2px solid #e05b0e;
+}
+.software:hover {
+    background: #e05b0e;
+    color: white;
+}
+
+/* Botón Research */
+.research {
+    background-color: white;
+    border: 2px solid #04AA6D;
+}
+.research:hover {
+    background-color: #46a049;
+    color: white;
+}
+
+
+@media (max-width: 600px) {
+    .profile-pic {
+        width: 100px;
+        height: 100px;
+    }
+
+    h1 {
+        font-size: 1.5em;
+    }
+
+    h2 {
+        font-size: 1.2em;
+    }
+
+    .buttons button {
+        width: 100%;
+        box-sizing: border-box;
+    }
+}
