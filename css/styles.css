@@ -111,6 +111,12 @@ p {
     color: white;
 }
 
+.buttons {
+    display: flex;
+    justify-content: center; 
+    flex-wrap: wrap; 
+    gap: 15px; 
+}
 
 @media (max-width: 600px) {
     .profile-pic {
