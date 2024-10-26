@@ -67,35 +67,39 @@ p {
     transform: scale(1.2); 
 }
 
-.buttons {
-    display: flex;
-    justify-content: center;
-    gap: 15px; 
-    flex-wrap: wrap; 
-}
-
 
 .btn {
     border: none;
     color: black;
-    padding: 8px 28px;
+    padding: 5px 40px;
     cursor: pointer;
-    border-radius: 5px;
+    border-radius: 10px;
     font-size: 1em;
-    margin:20px;
+    margin:10px;
     
 }
 
+
+
 .boton {
     background-color: white;
-    border: 2px solid #e05b0e8f;
+    border: 2px solid #8030028f;
 }
 .boton:hover {
     background: #e05b0e8f;
     color: white;
 }
 
-@media (max-width: 600px) {
+
+.buttons {
+    display: flex;
+    justify-content: center; 
+    flex-wrap: wrap; 
+    gap: 15px; 
+}
+
+
+@media (max-width: 500px) {
     .profile-pic {
         width: 100px;
         height: 100px;
