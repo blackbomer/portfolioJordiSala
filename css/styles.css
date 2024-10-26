@@ -67,6 +67,12 @@ p {
     transform: scale(1.2); 
 }
 
+.buttons {
+    display: flex;
+    justify-content: center;
+    gap: 15px; 
+    flex-wrap: wrap; 
+}
 
 /* Botones sacados y adaptados de: https://www.eniun.com/botones-css-estilos/*/
 .btn {
@@ -111,12 +117,6 @@ p {
     color: white;
 }
 
-.buttons {
-    display: flex;
-    justify-content: center; 
-    flex-wrap: wrap; 
-    gap: 15px; 
-}
 
 @media (max-width: 600px) {
     .profile-pic {
